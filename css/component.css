@@ -1,0 +1,31 @@
+.div_text_shadow 
+
+{
+color: rgb(255, 255, 255);
+font-size: 150px;
+
+text-shadow: rgb(204, 204, 204) 0px 1px 0px, rgb(201, 201, 201) 0px 2px 0px, rgb(187, 187, 187) 0px 3px 0px, rgb(185, 185, 185) 0px 4px 0px, rgb(170, 170, 170) 0px 5px 0px, rgba(0, 0, 0, 0.0980392) 0px 6px 1px, rgba(0, 0, 0, 0.0980392) 0px 0px 5px, rgba(0, 0, 0, 0.298039) 0px 1px 3px, rgba(0, 0, 0, 0.14902) 0px 3px 5px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.2) 0px 10px 10px, rgba(0, 0, 0, 0.0980392) 0px 20px 20px;
+}
+
+.text_3d
+{
+color: rgb(255, 255, 255);
+font-size: 150px;
+#background-color: rgb(220, 224, 179);
+text-shadow: rgb(150, 150, 150) 1px 3px 0px, rgb(171, 168, 168) 1px 13px 5px;
+}
+
+.Three-Dee{
+font-family: Tahoma, sans-serif;
+line-height: 1em;
+color: #fff9d6;
+font-weight:bold;
+font-size: 134px;
+text-shadow:0px 0px 0 rgb(231,231,231),-1px 1px 0 rgb(216,216,216),-2px 2px 0 rgb(202,202,202),-3px 3px 0 rgb(187,187,187),-4px 4px 0 rgb(173,173,173),-5px 5px 0 rgb(158,158,158), -6px 6px 0 rgb(144,144,144),-7px 7px 6px rgba(0,0,0,0.6),-7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);}
+
+h1{
+
+	text-shadow: 0px 1px 1px #4d4d4d;
+	color: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727));
+	font: 80px 'LeagueGothicRegular';
+}

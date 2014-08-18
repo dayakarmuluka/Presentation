@@ -1,4 +1,38 @@
+.silver{
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
 
+}
+.blackg{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(76,76,76,1)), color-stop(12%,rgba(89,89,89,1)), color-stop(25%,rgba(102,102,102,1)), color-stop(39%,rgba(71,71,71,1)), color-stop(50%,rgba(44,44,44,1)), color-stop(51%,rgba(0,0,0,1)), color-stop(60%,rgba(17,17,17,1)), color-stop(76%,rgba(43,43,43,1)), color-stop(91%,rgba(28,28,28,1)), color-stop(100%,rgba(19,19,19,1)));
+}
+
+body{
+  background-image: url('../images/img-noise-400x400.png');
+  /*  #  background-image: url('../images/blue.jpg');*/
+   # background: -webkit-radial-gradient(circle, #1a82f7, #2F2727);
+}
+.blueg{
+     /* fallback */
+  background-color: #2F2727;
+  
+  
+
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #1a82f7, #2F2727);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #1a82f7, #2F2727);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #1a82f7, #2F2727);
+
+  /* Opera couldn't do radial gradients, then at some point they started supporting the -webkit- syntax, how it kinda does but it's kinda broken (doesn't do sizing) */
+
+}
 
 .app1 {
     display: block;
@@ -22,27 +56,9 @@
     line-height: 36px;
     letter-spacing: -1px;
     text-align: center;
-
-    /* fallback */
-  background-color: #2F2727;
-  
-  
-
-  /* Safari 4-5, Chrome 1-9 */
-  /* Can't specify a percentage size? Laaaaaame. */
-  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727));
-
-  /* Safari 5.1+, Chrome 10+ */
-  background: -webkit-radial-gradient(circle, #1a82f7, #2F2727);
-
-  /* Firefox 3.6+ */
-  background: -moz-radial-gradient(circle, #1a82f7, #2F2727);
-
-  /* IE 10 */
-  background: -ms-radial-gradient(circle, #1a82f7, #2F2727);
-
-  /* Opera couldn't do radial gradients, then at some point they started supporting the -webkit- syntax, how it kinda does but it's kinda broken (doesn't do sizing) */
-
+   
+    background: rgba(20,20,20,.7);
+   
 }
 
 
@@ -87,4 +103,79 @@
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
+     background: rgba(20,20,20,.7);
+}
+#experiment {
+    min-height: 500px;
+}
+
+
+.cube {
+    position: absolute;
+    left: 50%;
+    top: 250px;
+    margin-left: -200px;
+    min-height: 600px;
+}
+
+.cube p {
+    line-height: 14px;
+    font-size: 12px;
+}
+
+.cube h2 {
+    font-weight: bold;
+}
+
+.rightFace,
+.leftFace,
+.topFace div {
+    padding: 10px;
+    width: 180px;
+    height: 180px;
+}
+
+.rightFace,
+.leftFace,
+.topFace {
+    position: absolute;
+}
+
+.leftFace {
+    -webkit-transform: skew(0deg, 30deg);
+    -moz-transform: skew(0deg, 30deg);
+    -o-transform: skew(0deg, 30deg);
+    -ms-transform: skew(0deg, 30deg);
+    transform: skew(0deg, 30deg);
+    background-color: #ccc;
+}
+
+.rightFace {
+    -webkit-transform: skew(0deg, -30deg);
+    -moz-transform: skew(0deg, -30deg);
+    -o-transform: skew(0deg, -30deg);
+    -ms-transform: skew(0deg, -30deg);
+    transform: skew(0deg, -30deg);
+    background-color: #ddd;
+    left: 200px;
+}
+
+.topFace div {
+    -webkit-transform: skew(0deg, -30deg) scale(1, 1.16);
+    -moz-transform: skew(0deg, -30deg) scale(1, 1.16);
+    -o-transform: skew(0deg, -30deg) scale(1, 1.16);
+    -ms-transform: skew(0deg, -30deg) scale(1, 1.16);
+    transform: skew(0deg, -30deg) scale(1, 1.16);
+    background-color: #eee;
+    font-size: 0.862em;
+}
+
+.topFace {
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    transform: rotate(60deg);
+    top: -158px;
+    left: 100px;
 }
