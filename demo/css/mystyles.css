@@ -1,0 +1,231 @@
+.smimg{
+  height:40px; 
+}
+.moveright{
+  float: right !important;
+}
+
+.lnk{
+    height:60px;
+    width:80%;
+    padding-bottom: 80px;
+    margin-left: 100px;
+    
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 6px 0px rgba(0,0,0,.3);
+    
+    border: 1px solid #000;
+    margin-top: 10px;
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #1a82f7, #2F2727);
+}
+.lnk:hover{
+  background: yellow;
+}
+
+.footer{
+    margin-top: 400px;
+}
+
+.heading1 {
+  font-size: 5em;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+}
+
+.subtitle{
+  font-size: 2em;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+}
+.heading2{
+   font-size: 3em;
+}
+.heading3{
+   font-size: 2em;
+}
+.bullet{
+  margin-left: 460;
+  float: left;
+}
+
+.img{
+padding: 12px;
+line-height: 1.42857143;
+background-color: white;
+border: 5px solid #0c0d0e;
+border-radius: 4px;
+-webkit-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+display: inline-block;
+width: 100% \9;
+max-width: 100%;
+height: auto;
+}
+
+.question{
+  font-size: 70px;
+}
+
+.app1 {
+    display: block;
+    width: 1200px;
+    height: 700px;
+    padding: 40px 60px;
+
+    
+
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+
+    
+
+    color: white;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -1px;
+    text-align: center;
+
+    /* fallback */
+  background-color: #2F2727;
+  
+  
+
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #1a82f7, #2F2727);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #1a82f7, #2F2727);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #1a82f7, #2F2727);
+
+  /* Opera couldn't do radial gradients, then at some point they started supporting the -webkit- syntax, how it kinda does but it's kinda broken (doesn't do sizing) */
+
+}
+
+
+
+
+.app5 {
+    display: block;
+    width: 1200px;
+    height: 900px;
+    padding: 40px 60px;
+
+    
+
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+
+    
+
+    color: white;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -1px;
+    text-align: center;
+
+    /* fallback */
+  background-color: #2F2727;
+  
+  
+
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #1a82f7, #2F2727);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #1a82f7, #2F2727);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #1a82f7, #2F2727);
+
+  /* Opera couldn't do radial gradients, then at some point they started supporting the -webkit- syntax, how it kinda does but it's kinda broken (doesn't do sizing) */
+
+}
+
+
+
+.myslide {
+    display: block;
+
+    width: 700px;
+    height: 500px;
+   #padding: 40px 60px;
+
+    background-color: black;
+    border: 1px solid rgba(0, 0, 0, .3);
+    #border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+
+    color: rgb(102, 102, 102);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -1px;
+}
+
+.app {
+    display: block;
+
+    width: 1200px;
+    height: 800px;
+    padding: 40px 60px;
+     background-color: white;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+
+    
+
+    color: rgb(102, 102, 102);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -1px;
+}
