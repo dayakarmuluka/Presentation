@@ -1,3 +1,9 @@
+.neonText h1 {
+  color: #fff;
+  text-shadow:0 0 5px #CCCCCC, 0 0 10px #CCCCCC, 0 0 15px #CCCCCC, 0 0 20px #095816, 0 0 25px #095816, 0 0 30px #095816, 0 0 50px #095816, 0 0 80px #095816, 0 0 100px #095816, 0 0 150px #095816
+}
+
+
 .smimg{
   height:40px; 
 }
@@ -22,7 +28,8 @@
   background: -webkit-radial-gradient(circle, #1a82f7, #2F2727);
 }
 .lnk:hover{
-  background: yellow;
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(254,252,234,1)), color-stop(100%,rgba(241,218,54,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* Chrome10+,Safari5.1+ */
 }
 
 .footer{

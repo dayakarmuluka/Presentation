@@ -83,7 +83,7 @@ app.controller('SlideCtrl',function($scope, $sce,$http){
                 datay:1000,
                 rotatey:0,
                
-                clazz:'app1'
+                clazz:'app1 neonText'
 
             },
             {
